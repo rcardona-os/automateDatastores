@@ -1,0 +1,4 @@
+language: ruby
+
+script:
+- curl -k -X POST -d'{"action":"refresh_from_source"}' https://git:password@192.168.66.143/api/automate_domains/MyDomain
